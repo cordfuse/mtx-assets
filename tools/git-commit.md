@@ -91,10 +91,10 @@ export function git_commit(input: Input): Output {
 
 ```typescript
 const result = git_commit({
-  paths: ['manifest/hosts/cachy.md'],
-  message: 'feat: add cachy host file',
+  paths: ['manifest/hosts/myhost.md'],
+  message: 'feat: add myhost host file',
   author_name: 'concierge',
-  author_email: 'concierge@cachy.crosstalk.local',
+  author_email: 'concierge@myhost.crosstalk.local',
   cwd: '/home/user/transport',
 });
 console.log(result.commit_hash);

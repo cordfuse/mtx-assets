@@ -78,7 +78,7 @@ export function parse_frontmatter(input: Input): Output {
 ## Usage
 
 ```typescript
-const result = parse_frontmatter({ path: './manifest/hosts/cachy.md' });
-console.log(result.frontmatter);  // { alias: 'cachy', hostname: 'steve-cachyos' }
+const result = parse_frontmatter({ path: './manifest/hosts/myhost.md' });
+console.log(result.frontmatter);  // { alias: 'myhost', hostname: 'myhost' }
 console.log(result.body);         // markdown content after the --- block
 ```

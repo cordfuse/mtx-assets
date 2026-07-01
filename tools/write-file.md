@@ -70,8 +70,8 @@ export function write_file(input: Input): Output {
 
 ```typescript
 const result = write_file({
-  path: './manifest/hosts/cachy.md',
-  content: '---\nalias: cachy\nhostname: steve-cachyos\n---\n',
+  path: './manifest/hosts/myhost.md',
+  content: '---\nalias: myhost\nhostname: myhost\n---\n',
 });
 if (!result.success) console.error(result.error);
 ```
