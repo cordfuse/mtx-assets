@@ -62,7 +62,7 @@ export function read_file(input: Input): Output {
 ## Usage
 
 ```typescript
-const result = read_file({ path: './manifest/hosts/cachy.md' });
+const result = read_file({ path: './manifest/hosts/myhost.md' });
 if (result.error) console.error(result.error);
 else console.log(result.content);
 ```
